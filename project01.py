@@ -12,7 +12,7 @@ try:
     con.close()
     print("table created")
 except sql.Error as error:
-    print("Table Exist")
+    print("Exist")
 finally:
     if con:
         con.close()
